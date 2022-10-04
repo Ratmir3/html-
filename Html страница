@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="K:/style.css">
+<title>Моя страница</title>
+<style>
+body{
+background: #000 url(cas.jpg);
+background-size: 100%;
+}   
+  h1 {
+    font-family: 'Times New Roman'; 
+    font-size: 200%;
+    font-color: red;
+   } 
+   p {
+    font-family: Verdana; 
+    font-size: 13pt;
+    color: blue;
+   }
+   h2 {
+    font-family: 'Times New Roman'; 
+    font-size: 200%;
+    font-color: black;
+   }
+ bo
+{
+border-style:none ;
+border-color:#287EC7;
+background: #ffff00; 
+}
+
+bo2
+{
+border-style:none ;
+border-color:#287EC7;
+background: #00ff00; 
+}
+bo3
+{
+border-style:solid ;
+border-color:#00ff00;
+background: #ffff00; 
+}
+a.button {
+  display: inline-block;
+  background: #2196f3;
+  color: #fff;
+  padding: 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 100;
+}
+
+div {
+  margin: 24px;
+  text-align: left;
+}
+</style> 
+</head>
+<header>
+<h1 align ='center'><u>Мой профиль</u></h1>
+</header>
+<main>
+<section>
+<h2 class="me"><bo3>Обо мне</h2></bo3>
+<img src="w.jpg" align="top" width=250px; height=250px;>
+<p><bo>Имя: Ратмир<br>
+Фамилия: Толубицкий<br>
+Родился 07.01.2005<br></p></bo>
+<div>
+
+  <a class="button" href="https://vk.com/dsw13ed">Написать мне</a>
+
+</div>
+</section>
+<section>
+<h2><bo2>Информация</h2></bo2>
+<p>Город: Ульяновск<br>
+Адрес: Самарская 12, квартира 53<br>
+Место учёбы:<a href="http://kei.ulstu.ru/">КЭИ</a><br>
+Образование: Неполное среднее<br>
+Опыт работы: Нет<br>
+Изучаемые языки: JS, C++, Python<br></p></bo2>
+</section>
+</main>
+</body>
+</html>
+
+
+
